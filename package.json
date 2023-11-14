@@ -1,0 +1,18 @@
+{
+    "name": "jekyll-tailwind-template",
+    "version": "0.0.1",
+    "description": "Basic Jekyll site template using Tailwind CSS with PostCSS",
+    "scripts": {
+        "setup": "gem install bundler && bundle install && npm ci",
+        "start": "bundler exec jekyll serve --livereload",
+        "build": "bundler exec jekyll build -d build/ && npx tailwindcss -i build/styles/main.css -o build/styles/main.css --minify"
+    },
+    "devDependencies": {
+        "@tailwindcss/typography": "^0.5.1",
+        "autoprefixer": "^10.4.2",
+        "postcss": "^8.4.6",
+        "postcss-cli": "^9.1.0",
+        "postcss-import": "^14.0.2",
+        "tailwindcss": "^3.0.18"
+    }
+}

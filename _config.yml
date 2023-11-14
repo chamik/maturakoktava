@@ -1,0 +1,34 @@
+# This is the basic info about your site. Definitely change this.
+title: Jekyll Tailwind Template
+description: Basic Jekyll site template using Tailwind CSS with PostCSS
+author: Kvído Potápník
+
+url: "" # the base hostname & protocol for your site, e.g. https://example.com
+
+# This template comes with the SEO tag plugin preinstalled. To get the most out of it, check out the configuration manual:
+# https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-postcss
+
+# Unless you know what are you doing, you probably don't want to change anything below this line
+
+postcss:
+  cache: false
+
+permalink: pretty
+
+source: src/
+
+exclude: [
+  .gitignore,
+  styles/index.css,
+  package.json,
+  package-lock.json,
+  postcss.config.js,
+  tailwind.config.js,
+  README.md,
+  build/,
+]
