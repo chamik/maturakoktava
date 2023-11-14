@@ -10,7 +10,12 @@ module.exports = {
         extend: {},
     },
     variants: {
-        extend: {},
+        extend: {
+            fontFamily: {
+                'sans': ['Comic Sans MS', 'sans-serif'],
+                'mono': ['Roboto\ Mono', 'monospace'],
+            },
+        },
     },
     plugins: [
         require('@tailwindcss/typography'),

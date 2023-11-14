@@ -4,3 +4,11 @@
 @import "tailwindcss/base";
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
+
+body {
+    font-family: 'Space Grotesk';
+}
+
+.inverse {
+    @apply text-2xl bg-black text-white px-1 py-0.5 font-bold whitespace-nowrap inline-block my-1;
+}
