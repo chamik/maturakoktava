@@ -10,5 +10,5 @@ body {
 }
 
 .inverse {
-    @apply text-2xl bg-black text-white px-1 py-0.5 font-bold whitespace-nowrap inline-block my-1;
+    @apply bg-black text-white px-1 py-0 md:py-0.5 font-bold whitespace-nowrap inline-block my-0.5 md:my-1;
 }
