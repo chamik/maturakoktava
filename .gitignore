@@ -5,3 +5,4 @@ build/
 .jekyll-metadata/
 node_modules/
 vendor
+upload.sh
