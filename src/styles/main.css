@@ -5,10 +5,14 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
+h1, h2 {
+    font-family: 'DM Serif Display';
+}
+
 body {
     font-family: 'Space Grotesk';
 }
 
-.inverse {
-    @apply bg-black text-white px-1 py-0 md:py-0.5 font-bold whitespace-nowrap inline-block my-0.5 md:my-1;
+.emph {
+    @apply font-extrabold text-transparent bg-clip-text bg-gradient-to-br from-[#e6ab63] to-[#df5979]
 }
