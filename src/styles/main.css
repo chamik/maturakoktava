@@ -5,14 +5,35 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
-h1, h2 {
-    font-family: 'DM Serif Display';
+@font-face {
+    font-family: "Futura";
+    src: url("/assets/fonts/FuturaPT-Medium.woff2") format("woff2"),
+         url("/assets/fonts/FuturaPT-Medium.woff") format("woff");
+    font-weight: 400;
+    font-style: normal;
 }
+  
+@font-face {
+    font-family: "Futura";
+    src: url("/assets/fonts/FuturaPT-Bold.woff2") format("woff2"),
+         url("/assets/fonts/FuturaPT-Bold.woff") format("woff");
+    font-weight: 700;
+    font-style: bold;
+}  
 
 body {
-    font-family: 'Space Grotesk';
+    font-family: 'Futura';
 }
 
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    width: 100%;
+}
+
+
 .emph {
-    @apply font-extrabold text-transparent bg-clip-text bg-gradient-to-br from-[#e6ab63] to-[#df5979]
+    @apply font-bold text-[#E9A122]
 }

@@ -5,8 +5,13 @@
     {% include head.html %}
 </head>
 
-<body class="antialiased text-[#E1D7DC] min-h-screen bg-gradient-to-r from-[#040505] to-[#2D2D2D] flex">
-    <main class="mb-auto p-4 md:p-10 mx-auto md:my-auto">
+<body class="antialiased text-[#E1D7DC] min-h-screen bg-[#713374] flex overflow-x-hidden">
+    <!-- Background Image -->
+    <div class="absolute top-0 w-full h-full bg-[url('/assets/purple_blend.webp')] bg-cover bg-repeat-y bg-center">
+    </div>
+    
+    <!-- Main Content -->
+    <main class="relative z-10 w-full max-w-screen">
         {{ content }}
     </main>
 </body>
