@@ -5,6 +5,7 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
+/* https://en.bestfonts.pro/font/futura-pt */
 @font-face {
     font-family: "Futura";
     src: url("/assets/fonts/FuturaPT-Medium.woff2") format("woff2"),
