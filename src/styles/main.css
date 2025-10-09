@@ -1,9 +1,6 @@
----
----
-
-@import "tailwindcss/base";
-@import "tailwindcss/components";
-@import "tailwindcss/utilities";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 /* https://en.bestfonts.pro/font/futura-pt */
 @font-face {

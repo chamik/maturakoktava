@@ -12,7 +12,6 @@ url: "https://maturakoktava.cz" # the base hostname & protocol for your site, e.
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
-  - jekyll-postcss
 
 # Unless you know what are you doing, you probably don't want to change anything below this line
 
