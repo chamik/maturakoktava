@@ -14,6 +14,7 @@ module.exports = {
             fontFamily: {
                 'sans': ['Comic Sans MS', 'sans-serif'],
                 'mono': ['Roboto\ Mono', 'monospace'],
+                'roadrage': ['Road Rage', 'monospace'],
             },
         },
     },

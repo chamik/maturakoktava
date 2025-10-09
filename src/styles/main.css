@@ -3,24 +3,9 @@
 @tailwind utilities;
 
 /* https://en.bestfonts.pro/font/futura-pt */
-@font-face {
-    font-family: "Futura";
-    src: url("/assets/fonts/FuturaPT-Medium.woff2") format("woff2"),
-         url("/assets/fonts/FuturaPT-Medium.woff") format("woff");
-    font-weight: 400;
-    font-style: normal;
-}
-  
-@font-face {
-    font-family: "Futura";
-    src: url("/assets/fonts/FuturaPT-Bold.woff2") format("woff2"),
-         url("/assets/fonts/FuturaPT-Bold.woff") format("woff");
-    font-weight: 700;
-    font-style: bold;
-}  
 
 body {
-    font-family: 'Futura';
+    font-family: 'Road Rage';
 }
 
 html, body {
@@ -31,7 +16,25 @@ html, body {
     width: 100%;
 }
 
+.page-font {
+      color: #fef5e7; 
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      text-shadow:
+        2px 2px 0 #000,
+        -2px 2px 0 #000,
+        2px -2px 0 #000,
+        -2px -2px 0 #000;
+      display: inline-block;
+}
 
 .emph {
-    @apply font-bold text-[#E9A122]
+    /* @apply font-bold text-[#E9A122] */
+    color: #ddc300; 
+      text-shadow:
+        2px 2px 0 #000,
+        -2px 2px 0 #000,
+        2px -2px 0 #000,
+        -2px -2px 0 #000
+    
 }
