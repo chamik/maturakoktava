@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-ruby "3.3.9"
+# ruby "3.3.9"
 
 group :jekyll_plugins do
   gem 'jekyll-seo-tag'
