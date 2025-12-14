@@ -2,39 +2,31 @@
 @tailwind components;
 @tailwind utilities;
 
-/* https://en.bestfonts.pro/font/futura-pt */
 
 body {
-    font-family: 'Road Rage';
+    font-family: 'lora';
+    background-image: url('/assets/bg.webp');
+    background-size: cover;
+    background-position: center;
 }
 
 html, body {
+    font-family: 'lora';
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     overflow-x: hidden;
     width: 100%;
-}
-
-.page-font {
-      color: #fef5e7; 
-      text-transform: uppercase;
-      letter-spacing: 0.05em;
-      text-shadow:
-        2px 2px 0 #000,
-        -2px 2px 0 #000,
-        2px -2px 0 #000,
-        -2px -2px 0 #000;
-      display: inline-block;
+    font-weight: 500;
 }
 
 .emph {
-    /* @apply font-bold text-[#E9A122] */
-    color: #ddc300; 
-      text-shadow:
-        2px 2px 0 #000,
-        -2px 2px 0 #000,
-        2px -2px 0 #000,
-        -2px -2px 0 #000
-    
+    font-weight: 700;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+}
+
+.emph1 {
+    font-weight: 700;
+
 }

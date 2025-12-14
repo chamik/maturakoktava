@@ -5,21 +5,14 @@
     {% include head.html %}
 </head>
 
-<body class="antialiased text-[#E1D7DC] min-h-screen flex flex-col overflow-x-hidden">
-    <!-- Background Image -->
-    <div class="absolute top-0 w-full h-full bg-[url('/assets/bg.webp')] bg-cover bg-repeat-y bg-center brightness-[65%]">
-    </div>
-    
+<body class="antialiased text-[#000000] min-h-screen flex flex-col overflow-x-hidden">
     <!-- Main Content -->
     <main class="relative z-10 w-full max-w-screen">
         {{ content }}
     </main>
 
-    <img class="absolute bottom-0 left-1/2 -translate-x-1/2 h-[16rem] brightness-[90%]" src="/assets/person.webp" alt="Osoba">
+    <img class="relative md:absolute bottom-0 left-1/2 -translate-x-1/2 h-[16rem] md:h-[24rem] brightness-[90%]" src="/assets/person.webp" alt="Osoba">
 
-    <footer class="mt-auto p-2 pb-4 text-xs md:text-sm mx-auto z-10">
-        <!-- <p>Tento web vytvořil Adam a Kubík. Kvůli případným připomínkám nám <a href="https://github.com/chamik/maturakoktava/issues" class="emph">dej vědět</a>.</p> -->
-    </footer>
 </body>
 
 </html>

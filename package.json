@@ -5,7 +5,7 @@
     "scripts": {
         "setup": "gem install bundler && bundle install && npm ci",
         "dev": "concurrently npm:start:*",
-        "start:dev1": "bundler exec jekyll serve",
+        "start:dev1": "bundler exec jekyll serve --host 0.0.0.0",
         "start:dev2": "npx tailwindcss -i src/styles/main.css -o _site/styles/main.css --watch",
         "build": "bundler exec jekyll build -d build/ && npx tailwindcss -i build/styles/main.css -o build/styles/main.css --minify"
     },

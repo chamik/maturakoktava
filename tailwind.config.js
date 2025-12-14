@@ -15,6 +15,8 @@ module.exports = {
                 'sans': ['Comic Sans MS', 'sans-serif'],
                 'mono': ['Roboto\ Mono', 'monospace'],
                 'roadrage': ['Road Rage', 'monospace'],
+                'lora': ["Lora", 'serif']
+                
             },
         },
     },
